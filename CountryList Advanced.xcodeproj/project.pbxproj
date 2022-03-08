@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DA058D8FADA76972526EE89A /* Pods_CountryList_Advanced.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4370CC2AB311CCD2ACBAEB4 /* Pods_CountryList_Advanced.framework */; };
+		EB7380BE27D6F32200FAAC21 /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7380BD27D6F32200FAAC21 /* CountryModel.swift */; };
 		EBE29B9427C2916E000B391F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE29B9327C2916E000B391F /* AppDelegate.swift */; };
 		EBE29B9627C2916E000B391F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE29B9527C2916E000B391F /* SceneDelegate.swift */; };
 		EBE29B9827C2916E000B391F /* CountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE29B9727C2916E000B391F /* CountryViewController.swift */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		8F54644E04F790DC0F4605F7 /* Pods-CountryList Advanced.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountryList Advanced.debug.xcconfig"; path = "Target Support Files/Pods-CountryList Advanced/Pods-CountryList Advanced.debug.xcconfig"; sourceTree = "<group>"; };
+		EB7380BD27D6F32200FAAC21 /* CountryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CountryModel.swift; path = "/Users/ebcom/Desktop/CountryList Advanced/CountryList Advanced/CountryModel.swift"; sourceTree = "<absolute>"; };
 		EBE29B9027C2916E000B391F /* CountryList Advanced.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CountryList Advanced.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBE29B9327C2916E000B391F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBE29B9527C2916E000B391F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				EBE29BB527C29304000B391F /* ViewController */,
 				EBE29BB227C292CC000B391F /* Network */,
 				EBE29BB427C292ED000B391F /* ViewModel */,
+				EB7380BD27D6F32200FAAC21 /* CountryModel.swift */,
 				EBE29BB327C292D4000B391F /* Model */,
 				EBE29BAF27C291E1000B391F /* TableViewCell */,
 				EBE29BB727C29325000B391F /* Storyboard */,
@@ -280,6 +283,7 @@
 			files = (
 				EBE29BB127C292C7000B391F /* NetworkLayer.swift in Sources */,
 				EBE29B9827C2916E000B391F /* CountryViewController.swift in Sources */,
+				EB7380BE27D6F32200FAAC21 /* CountryModel.swift in Sources */,
 				EBE29B9427C2916E000B391F /* AppDelegate.swift in Sources */,
 				EBE29BA827C291C3000B391F /* CountryModel.swift in Sources */,
 				EBE29BAD27C291DA000B391F /* TableViewCell.swift in Sources */,
